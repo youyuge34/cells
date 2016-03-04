@@ -8,6 +8,7 @@ public class Cell {
 	public void die() { alive = false; }
 	public void reborn() { alive = true; }
 	public boolean isAlive() { return alive; }
+	public void test (){ ;}
 	
 	public void draw(Graphics g, int x, int y, int size) {
 		g.drawRect(x, y, size, size);
